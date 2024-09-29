@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    white-space: pre-wrap;
+}

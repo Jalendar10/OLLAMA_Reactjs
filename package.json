@@ -1,0 +1,14 @@
+{
+    "name": "langchain-llama3",
+    "version": "1.0.0",
+    "type": "module",  
+    "main": "run.js",
+    "scripts": {
+      "start": "node llama3.js"
+    },
+    "dependencies": {
+      "@langchain/ollama": "^1.0.0",
+      "@langchain/core": "^1.0.0"
+    }
+  }
+  

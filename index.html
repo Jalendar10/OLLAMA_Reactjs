@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langchain LLaMA3 Model UI</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional, for adding custom styles -->
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    white-space: pre-wrap;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>LLaMA3 Text Generation</h1>
+        <label for="inputText">Enter Text:</label>
+        <textarea id="inputText" rows="4" cols="50" placeholder="Type something here..."></textarea>
+        <br/>
+        <button id="submitBtn">Generate</button>
+
+        <h2>Generated Completion:</h2>
+        <pre id="completionResult">Waiting for input...</pre>
+
+        <h2>Translation (German):</h2>
+        <pre id="translationResult">Waiting for input...</pre>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
